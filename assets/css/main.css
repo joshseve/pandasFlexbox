@@ -1,4 +1,5 @@
 body{
+  background-image: url(https://images3.alphacoders.com/575/thumb-1920-575441.jpg);
   font-family: 'Open Sans Condensed', sans-serif;
   font-family: 'Patrick Hand', cursive;
   font-family: 'Montserrat Alternates', sans-serif;
@@ -8,29 +9,75 @@ body{
 header{
   height: 60px;
   max-width: 100%;
-  background: #A61111;
+  background: #6C5838;
 }
 
 nav {
   width: 700px;
   display: flex;
-  justify-content: space-between;
-  background: #A61111;
+  justify-content: space-around;
+  background: #6C5838;
 }
 
 nav li{
+  color: #C5F8CF;
   list-style: none;
   font-size: 30px;
+  padding: 10px 10px 10px 10px;
+}
+
+li:hover {
+    color: #F2F246;
 }
 
 .contTres{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding: 40px;
 }
 
 img{
-  width: 300px;
-  height: 200px;
-  background: #C4CBC7 no-repeat right bottom;
-  padding: 5px 5px 5px 5px;
+  width: 260px;
+  height: 220px;
+  background: #6C5838 no-repeat right bottom;
+  padding: 5px;
+  border-radius: 5%;
+}
+
+.contCuatro{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+button{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Patrick Hand', cursive;
+  font-family: 'Montserrat Alternates', sans-serif;
+  display: flex;
+  justify-content: space-around;
+  color:brown;
+  font-size: 20px;
+  background:#E2C79E;
+  border-radius: 50%;
+  margin: 20px;
+  padding: 20px;
+}
+
+.contCinco{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.texto{
+  flex-direction: column;
+  width: 40%;
+  margin: 20px;
+  padding: 20px;
+  text-align: justify;
+}
+
+footer{
+  display: flex;
+  justify-content: flex-end;
 }
